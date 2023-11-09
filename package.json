@@ -1,0 +1,29 @@
+{
+  "name": "inventory_app",
+  "version": "1.0.0",
+  "description": "Inventory management app for a store. The store sells just random electronic periphery. Keyboards, mice, headsets, speakers, etc...",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "start": "nodemon dist/app.js"
+  },
+  "author": "zach1281",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "chalk": "4.17.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.16",
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.9.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  }
+}
